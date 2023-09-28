@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const ContactPage = () => {
     return(
@@ -11,6 +12,6 @@ const ContactPage = () => {
     )
 }
 
-export const Head = () => <title>Contact</title>
+export const Head = () => <Seo title="Contact"/>
 
 export default ContactPage
